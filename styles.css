@@ -1,0 +1,133 @@
+body{
+    background-color:rgb(234, 241, 201);
+    color:olive;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+.container{
+    width:80%;
+    margin:auto;
+}      
+
+.border {
+    margin:10px;
+    padding:10px;
+    border: 5px double rgb(193, 240, 64);
+    border-color:darksalmon;
+    background-color:darkturquoise;
+    text-align-last: center;
+}
+
+.border2 {
+    margin:50px 10px;
+    padding:1px 15px;
+    border-color:darksalmon;
+    background-color:darkturquoise;
+}  
+
+.underlining {
+    text-decoration-line: underline;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px #aec963;
+}   
+
+.box1{
+    margin:50px 10px;
+    padding:0px 15px;
+    
+}
+
+.inline li{
+    display:inline;
+    margin:10px;  
+    padding:0px;  
+    }
+
+ .box2{
+    margin:50px 10px;
+    padding:0px 15px;
+}
+
+.my-form{
+    padding:20px;         
+}
+
+.my form .form-group{
+    padding-bottom:15px;
+}
+
+.my-form label{
+    display:block;
+    margin: 12px 0px;
+}
+
+.my-form input[type="text"], .my-form input[type="email"], .my-form input[type="number"], .my-form input[type="tel"], .my-form textarea{
+    padding:8px;
+    width:40%;
+}
+
+.my-form input[type="value1"], .my.form input[type="url"]{
+    width:60px;
+    height: 18px;
+}
+
+.button{
+    background-color:cornsilk;
+    color:rgb(19, 18, 18);
+    margin-top: 20px;
+    padding:10px 15px;
+}  
+
+.block{
+    display:inline-table;
+    padding-right: 0px;
+    margin-right: 60px;
+    margin-top:0px;
+}
+
+.block1{
+    display:inline-table;
+    padding-right: 0px;
+    margin-right: 50px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+
+.block1a{
+    padding-bottom: 0px;
+    margin-top:15px;
+    margin-bottom:0px;
+}
+
+/*media query*/
+
+@media screen and (min-width:320px){
+    h1{
+        font-size: 40px;
+    }
+    h2{
+        font-size: 30px;
+    }
+   }
+
+ @media screen and (min-width:1024px){
+     body{
+         background-color:aqua;
+     }   
+     h1{
+         color:beige;
+         font-size:30px;
+     }   
+     h2{
+         color:rgb(240, 8, 19);
+         font-size: 15px;
+    } 
+     h3{
+         color:coral;
+         font-size: 15px;
+         line-height: 1.6em;
+
+     }
+ }  

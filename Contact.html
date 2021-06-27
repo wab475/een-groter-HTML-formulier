@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Contact</title>
+</head>
+<style>
+    h1 {
+        font-size: 50px;
+        font-style: oblique;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1 class="border text-shadow centre-tittle">Contact</h1>
+        </header>
+
+        <nav>
+            <ul class="inline">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">Meer over mij</a></li>
+            </ul>
+        </nav>
+
+        <form class="my-form" name="contact" method="POST" data-netlify="true">
+            <p class="form-group">
+                <label>Naam: </label>
+                <input type="text" name="name" />
+            </p>
+            <p class="form-group">
+                <label>Email: </label>
+                <input type="email" name="email" />
+            </p>
+            <p class="form-group">
+                <label>Telefoonnr.: </label>
+                <input type="tel" name="Telefoonnr." />
+            </p>
+
+            <p class="block">
+                <label>Leeftijd: </label>
+                <input type="value1" name="Leeftijd" />
+            </p>
+            <p class="block">
+                <label>Geboortedatum: </label>
+                <input type="date" name="Geboortedatum" />
+            </p>
+            <p class="block">
+                <label>Vrouw </label>
+                <input type="radio" name="Gender" />
+            </p>
+            <p class="block">
+                <label>Man </label>
+                <input type="radio" name="Gender" />
+            </p>
+            <p class="block">
+                <label>Neutraal </label>
+                <input type="radio" name="Gender" />
+            </p>
+
+            <p class="block1a">Favoriete keuken:</p>
+            <p class="block1">
+                <label>Italiaans </label>
+                <input type="checkbox" name="Favo keuken" />
+            </p>
+            <p class="block1">
+                <label>Spaans </label>
+                <input type="checkbox" id="Spaans" name="Favo keuken" />
+            </p>
+            <p class="block1">
+                <label>Frans </label>
+                <input type="checkbox" name="Favo keuken" />
+            </p>
+            <p class="block1">
+                <label>Arabisch </label>
+                <input type="checkbox" name="Favo keuken" />
+            </p>
+            <p class="block1">
+                <label>Nederlands </label>
+                <input type="checkbox" name="Favo keuken" />
+            </p>
+
+            <p>
+                <label>Favoriete schortkleur:</label>
+                <input type="color" name="Favo schortkleur" />
+            </p>
+
+            <p class="form-group">
+                <label>Biografie: </label>
+                <textarea name="Biografie"></textarea>
+            </p>
+
+            <p class="form-group">Upload je favoiete recept:
+                <input type="file" id="myFile" name="filename" />
+            </p>
+
+            <p class="form-group">
+                <label>Favoriete receptensite: </label>
+                <input type="url" name="Favo receptensite" />
+            </p>
+
+            <input class="button" type="reset" value="Reset" />
+            <input class="button" type="submit" value="Verzenden" />
+
+        </form>
+
+    </div>
+</body>
+
+</html>
